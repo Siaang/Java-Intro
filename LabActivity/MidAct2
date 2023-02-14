@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class MidAct2 {
+
+    public static void main(String[] args)
+    {
+        int num1,num2, area;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = sc.nextInt();
+
+        System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
+
+        sc.close();
+        area = num1 * num2;
+        System.out.println("Area of these numbers: " +area);
+    }
+
+}
